@@ -28,34 +28,36 @@
 
     <h2>3. How Data Is Used</h2>
     <ul>
-      <li>The collected cookies and email are sent to the Supabase backend (<code>https://ytmkaqvesvsrokmfxsql.supabase.co</code>) via the <code>register_account</code> RPC function.</li>
-      <li>The Supabase backend monitors price changes for the user's Amazon cart and wishlist and sends alerts when prices drop below user-defined targets.</li>
+      <li>The collected cookies and email are sent securely to our backend service via encrypted API calls.</li>
+      <li>The backend monitors price changes for the user's Amazon cart and wishlist and sends alerts when prices drop below user-defined targets.</li>
       <li>Data is used exclusively to enable the price-tracking and alert functionality.</li>
       <li>The "Refresh Cookies" feature periodically re-sends updated cookies to maintain an active session.</li>
     </ul>
 
     <h2>4. Data Storage</h2>
-    <li>All user data (cookies, email, machine ID, metadata) is stored in the Supabase platform, a cloud database and backend service.</li>
-    <li>Supabase stores data in accordance with its own data handling practices and regional storage options.</li>
-    <li>The Extension's local storage (browser) stores: the linked email address and timestamp, used to restore the Extension state on reinstall.</li>
+    <ul>
+      <li>All user data (cookies, email, machine ID, metadata) is stored securely in a cloud database.</li>
+      <li>Data is stored in accordance with the cloud provider's data handling practices and regional storage options.</li>
+      <li>The Extension's local storage (browser) stores: the linked email address and timestamp, used to restore the Extension state on reinstall.</li>
+    </ul>
 
     <h2>5. Data Retention</h2>
     <ul>
       <li>Data is retained until the user disconnects their account using the Extension's "Disconnect" feature in the popup.</li>
-      <li>Upon disconnection, the associated cookies, email, and machine ID are removed from the Supabase backend.</li>
-      <li>If the Extension is uninstalled without disconnecting, data may persist in Supabase until the user disconnects via the Extension UI or contacts the developer.</li>
+      <li>Upon disconnection, the associated cookies, email, and machine ID are removed from our backend.</li>
+      <li>If the Extension is uninstalled without disconnecting, data may persist until the user disconnects via the Extension UI or contacts the developer.</li>
     </ul>
 
     <h2>6. User Rights</h2>
     <ul>
-      <li><strong>Disconnect:</strong> Users can click "Disconnect Amazon Account" in the Extension popup to immediately remove their linked account data from Supabase and clear local storage.</li>
+      <li><strong>Disconnect:</strong> Users can click "Disconnect Amazon Account" in the Extension popup to immediately remove their linked account data and clear local storage.</li>
       <li><strong>Data deletion:</strong> Users may request complete data deletion by contacting the developer via the email below; all associated personal data will be removed within 30 days.</li>
       <li><strong>Export:</strong> Users can view their linked email and disconnection status at any time via the Extension popup.</li>
     </ul>
 
     <h2>7. Third-Party Services</h2>
-    <p>The Extension uses Supabase (<a href="https://supabase.com" target="_blank" rel="noopener">supabase.com</code>) for backend data storage, RPC functions, and price-monitoring automation. Supabase's own privacy policy governs its data practices: <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</code>.</p>
-    <p>The Extension does not sell user data to third parties. All data processing occurs either within the browser or via the Supabase backend, both of which are necessary for the core functionality.</p>
+    <p>The Extension uses secure cloud infrastructure for backend data storage and price-monitoring automation. All data processing occurs either within the browser or via our secure backend, both of which are necessary for the core functionality.</p>
+    <p>The Extension does not sell user data to third parties.</p>
 
     <h2>8. Children's Privacy</h2>
     <p>The Extension is not directed to children under 13 and does not knowingly collect personal data from children. If you are a parent or guardian and believe your child has provided data, please contact us.</p>
